@@ -12,6 +12,7 @@ function getQuote() {
             // console.log(result);
             quoteEl.innerHTML = result.en;
             authorEl.innerHTML = result.author;
+            // authorEl.innerHTML = 'franchette camoro';
         })
         .catch(err => {
             // console.log(err);
