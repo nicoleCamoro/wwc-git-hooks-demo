@@ -2,6 +2,7 @@ const buttonEl = document.getElementById('btnQuote');
 const quoteEl = document.getElementById('quote');
 const authorEl = document.getElementById('author');
 
+getQuote();
 buttonEl.onclick = getQuote;
 
 function getQuote() {
